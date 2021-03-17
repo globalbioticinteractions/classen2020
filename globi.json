@@ -1,0 +1,86 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://doi.pangaea.de/10.1594/PANGAEA.911390?format=textfile",
+    "dcterms:bibliographicCitation" : "Classen, Alice; Steffan-Dewenter, Ingolf (2020): Plant-pollinator interactions along an elevational gradient on Mt. Kilimanjaro. PANGAEA, https://doi.org/10.1594/PANGAEA.911390",
+    "interactionTypeName" : "pollinatedBy",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002456",
+    "delimiter" : "\t",
+    "headerRowCount" : 74,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Event",
+        "titles" : "Event",
+        "datatype" : "string"
+      }, {
+        "name" : "Plot",
+        "titles" : "Plot",
+        "datatype" : "string"
+      }, {
+        "name" : "networkId",
+        "titles" : "Network",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Date/Time",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Plant",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxo reso plant",
+        "titles" : "Taxo reso plant",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Pollinator",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxo resol pollinator",
+        "titles" : "Taxo resol pollinator",
+        "datatype" : "string"
+      }, {
+        "name" : "Individual code",
+        "titles" : "Individual code",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "Group",
+        "titles" : "Group",
+        "datatype" : "string"
+      }, {
+        "name" : "No",
+        "titles" : "No",
+        "datatype" : "string"
+      }, {
+        "name" : "Investigator",
+        "titles" : "Investigator",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
